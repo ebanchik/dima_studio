@@ -14,7 +14,6 @@ html {
 .header-background {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
-  position: absolute;
   background-size: cover;
   top: 0;
   left: 0;
@@ -66,4 +65,11 @@ nav ul li a {
   color: #000000;
   text-decoration: none;
   font-size: 25px;
+}
+
+
+.about {
+  position: relative; /* or remove the position property altogether */
+  height: 500px;
+  margin: 0px 50px 0px 50px;
 }
