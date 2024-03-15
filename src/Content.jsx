@@ -1,8 +1,7 @@
 export function Content() {
   return (
     <main>
-      <h1>Dima Studio
-      </h1>
+      <h2>About</h2>
     </main>
   )
 }

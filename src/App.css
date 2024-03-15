@@ -9,33 +9,52 @@ html {
   font-style: normal;
 }
 
-body {
-  background-image: url('/assets/013_381.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
 /* styles.css */
-header {
-  background-color: #333;
+
+.header-background {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  z-index: -1; /* This places the image behind the content */
+}
+
+nav {
+  position: relative;
+  z-index: 1; /* This places the navigation content above the background image */
+  /* Add more styling for your navigation as needed */
+}
+
+header h1 {
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-size: 25px;
+  font-size: 200px;
   font-family: 'League Spartan';
 }
 
-header {
+header h1 {
   position: fixed;
-  top: 0;
-  left: 11%;
+  top: 70%;
+  left: 50%;
   transform: translateX(-50%); /* Center horizontally */
 }
 
+header h1 {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%); /* Center horizontally */
+}
 
 nav ul {
   list-style-type: none;
   padding: 0;
+  position: fixed;
+  top: 0;
+  left: 10px;
 }
 
 nav ul li {
@@ -44,6 +63,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
+  font-size: 25px;
 }
