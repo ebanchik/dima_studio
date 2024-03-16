@@ -82,12 +82,20 @@ nav ul li a {
 .carousel {
   position: relative;
   overflow: hidden;
+  width: 10%; /* Adjust the width as needed */
 }
 
 .slide {
   display: none;
   width: 100%;
 }
+
+.slide img {
+  width: 100%; /* Adjust the height of the images to fit the carousel */
+  height: auto;
+  object-fit: cover; /* Cover the slide area without distorting the image */
+}
+
 
 .slide.active {
   display: block;
