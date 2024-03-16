@@ -11,6 +11,10 @@ html {
 
 /* styles.css */
 
+.header-container {
+  position: relative;
+}
+
 .header-background {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Adjust the height as needed */
@@ -80,9 +84,11 @@ nav ul li a {
 
 
 .carousel {
-  position: relative;
+  position: absolute;
+  top: 5%;
+  left: 70%;
   overflow: hidden;
-  width: 10%; /* Adjust the width as needed */
+  width: 150px; /* Adjust the width as needed */
 }
 
 .slide {
