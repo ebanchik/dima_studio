@@ -81,14 +81,22 @@ nav ul li a {
 
 
 
-
+.carousel-container {
+  position: relative;
+  top: -1290px; /* Adjust as needed */
+  left: 500px; /* Adjust as needed */
+  width: 300px; /* Adjust the width of the container to fit the frame */
+  height: 200px; /* Adjust the height of the container to fit the frame */
+  margin: 0 auto; /* Center the container */
+}
 
 .carousel {
-  position: absolute;
-  top: 5%;
-  left: 70%;
+  position: relative;
   overflow: hidden;
-  width: 150px; /* Adjust the width as needed */
+  left: 70px;
+  top: -10px;
+  width: 165px; /* Full width of the container */
+  height: auto; /* Maintain aspect ratio */
 }
 
 .slide {
@@ -97,34 +105,28 @@ nav ul li a {
 }
 
 .slide img {
-  width: 100%; /* Adjust the height of the images to fit the carousel */
+  width: 100%;
   height: auto;
-  object-fit: cover; /* Cover the slide area without distorting the image */
+  object-fit: cover;
 }
-
 
 .slide.active {
   display: block;
 }
 
-.navigation {
+.frame {
   position: absolute;
-  bottom: 10px;
+  top: -85px; /* Adjust the position as needed */
   left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+  transform: translateX(-50%); /* Center the frame horizontally */
+  width: 350px; /* Fixed width of the frame */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 2; /* Ensure the frame is above the carousel */
 }
 
-.nav-button {
-  border: none;
-  background-color: rgba(255, 255, 255, 0.5);
-  margin: 0 5px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.nav-button.active {
-  background-color: rgba(255, 255, 255, 0.9);
+@media (max-width: 600px) {
+  .carousel-container {
+    width: 80%; /* Adjust the width for smaller screens */
+    top: -800px; /* Adjust the position for smaller screens */
+  }
 }

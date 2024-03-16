@@ -5,13 +5,16 @@ export function Header() {
   const images = [
     "/assets/images/chair.png",
     "/assets/images/dining_room.png",
-    "/assets/images/living_room.png",
+    "/assets/images/closet.png",
   ];
-  
+
   return (
     <header className="header-container">
     <img src="/assets/013_381.jpeg" alt="Background" className="header-background" />
-    <Carousel images={images} />
+    <div className="carousel-container">
+      <Carousel images={images} />
+      <img src="/assets/images/frame1.png" alt="Frame" className="frame" />
+    </div>
     <h1>Dima Studio</h1>
     <nav>
       <ul>

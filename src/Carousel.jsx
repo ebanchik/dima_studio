@@ -26,7 +26,7 @@ export function Carousel({ images }) {
           <img src={image} alt={`Slide ${index + 1}`} />
         </div>
       ))}
-      <div className="navigation">
+      {/* <div className="navigation">
         {images.map((_, index) => (
           <button
             key={index}
@@ -34,7 +34,7 @@ export function Carousel({ images }) {
             onClick={() => setCurrentSlide(index)}
           ></button>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
