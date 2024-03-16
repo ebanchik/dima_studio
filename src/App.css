@@ -73,3 +73,44 @@ nav ul li a {
   height: 500px;
   margin: 0px 50px 0px 50px;
 }
+
+
+
+
+
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+  width: 100%;
+}
+
+.slide.active {
+  display: block;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.nav-button {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.nav-button.active {
+  background-color: rgba(255, 255, 255, 0.9);
+}

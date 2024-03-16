@@ -1,8 +1,9 @@
+/* eslint-disable react/no-unescaped-entities */
 export function About() {
 
   return (
     <section className="about" id="about">
-        <h1>About Me</h1>
+        <h1>Who we are...</h1>
         <div className="about-container">
           <div className="about-body">
             <h3>Hello, I'm Eli, a New York City native and a recent graduate from NYU Gallatin with a diverse background in Business, Philosophy, and Psychology. My journey into the tech world began organically, sparked by my experiences in a marketing internship at a fintech startup where creativity thrived. I directed creative projects, conducted research, wrote compelling copy, and regularly pitched ideas. My analytical side shines through roles in investment analysis at EMBEE and data management at NewLab.
