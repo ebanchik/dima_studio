@@ -12,7 +12,7 @@ export function Carousel({ images }) {
       setCurrentSlide((prevSlide) =>
         prevSlide === images.length - 1 ? 0 : prevSlide + 1
       );
-    }, 3000);
+    }, 1500);
     return () => clearTimeout(timer);
   }, [currentSlide, images.length]);
 

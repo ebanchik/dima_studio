@@ -24,30 +24,17 @@ html {
   z-index: -1; /* This places the image behind the content */
 }
 
-nav {
-  position: relative;
-  z-index: 1; /* This places the navigation content above the background image */
-  /* Add more styling for your navigation as needed */
-}
-
 header h1 {
   color: #fff;
   padding: 20px;
   text-align: center;
-  font-size: 200px;
+  font-size: 7vw;
   font-family: 'League Spartan';
 }
 
 header h1 {
   position: fixed;
-  top: 70%;
-  left: 50%;
-  transform: translateX(-50%); /* Center horizontally */
-}
-
-header h1 {
-  position: fixed;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translateX(-50%); /* Center horizontally */
 }
