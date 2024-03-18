@@ -8,9 +8,9 @@ export function Header() {
     "/assets/images/closet.png",
   ];
   const images2 = [
-    "/assets/images/chair.png",
-    "/assets/images/dining_room.png",
-    "/assets/images/closet.png",
+    "/assets/images/IMG_1741.jpg",
+    "/assets/images/IMG_1742.jpg",
+    "/assets/images/IMG_1743.jpg",
   ];
 
   return (
@@ -21,8 +21,8 @@ export function Header() {
       <img src="/assets/images/frame1.png" alt="Frame" className="frame" />
     </div>
     <div className="carousel-container second-carousel-container">
-      <Carousel images={images2} />
-      <img src="/assets/images/frame4.png" alt="Frame" className="frame frame-set" />
+      <Carousel images={images2} className="second-carousel" />
+      <img src="/assets/images/frame4.png" alt="Frame" className="frame second-frame" />
     </div>
     <h1>Dima Studio</h1>
     <nav>

@@ -123,6 +123,18 @@ nav ul li a {
   /* Add other styling as needed */
 }
 
+.second-carousel-container .carousel {
+  width: 175px; /* Adjust the width as needed */
+  height: auto;
+  left: -80px; /* Adjust the height as needed */
+  top: -25px;
+}
+
+.second-carousel-container .frame {
+  width: 600px; /* Adjust the width as needed */
+  height: auto; /* Adjust the height as needed */
+}
+
 .frame-set {
   position: absolute;
   top: -85px; /* Adjust the position as needed */
