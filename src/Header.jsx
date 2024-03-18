@@ -20,9 +20,9 @@ export function Header() {
       <Carousel images={images} />
       <img src="/assets/images/frame1.png" alt="Frame" className="frame" />
     </div>
-    <div className="carousel-container">
+    <div className="carousel-container second-carousel-container">
       <Carousel images={images2} />
-      <img src="/assets/images/frame1.png" alt="Frame" className="frame" />
+      <img src="/assets/images/frame4.png" alt="Frame" className="frame frame-set" />
     </div>
     <h1>Dima Studio</h1>
     <nav>

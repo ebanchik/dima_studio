@@ -1,3 +1,5 @@
+/*******************************ROOT**************************/
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,6 +12,8 @@ html {
 }
 
 /* styles.css */
+
+/*******************************HEADER**************************/
 
 .header-container {
   position: relative;
@@ -59,14 +63,7 @@ nav ul li a {
 }
 
 
-.about {
-  position: relative; /* or remove the position property altogether */
-  height: 500px;
-  margin: 0px 50px 0px 50px;
-}
-
-
-
+/*******************************CAROUSELS**************************/
 
 .carousel-container {
   position: relative;
@@ -116,4 +113,30 @@ nav ul li a {
     width: 80%; /* Adjust the width for smaller screens */
     top: -800px; /* Adjust the position for smaller screens */
   }
+}
+
+
+.second-carousel-container {
+  position: relative;
+  top: -1500px; /* Adjust as needed */
+  left: -750px; /* Adjust as needed */
+  /* Add other styling as needed */
+}
+
+.frame-set {
+  position: absolute;
+  top: -85px; /* Adjust the position as needed */
+  left: 50%;
+  transform: translateX(-50%); /* Center the frame horizontally */
+  width: 550px; /* Fixed width of the frame */
+  height: auto; /* Maintain aspect ratio */
+  z-index: 2; /* Ensure the frame is above the carousel */
+}
+
+/*******************************ABOUT**************************/
+
+.about {
+  position: relative; /* or remove the position property altogether */
+  height: 500px;
+  margin: 0px 50px 0px 50px;
 }
